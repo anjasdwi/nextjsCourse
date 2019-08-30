@@ -1,0 +1,21 @@
+{
+  "name": "hacker-news",
+  "version": "1.0.0",
+  "description": "A Hacker news clone made with next.js",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build",
+    "heroku-postbuild": "next build"
+  },
+  "author": "Anjas Dwi",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "sw-precache-webpack-plugin": "^0.11.5"
+  }
+}
